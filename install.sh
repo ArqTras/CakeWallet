@@ -2,9 +2,9 @@
 
 SOURCE_DIR=`pwd`
 EXTERNAL_DIR_PATH="$SOURCE_DIR/External"
-BOOST_URL="https://github.com/fotolockr/ofxiOSBoost.git"
+BOOST_URL="https://github.com/farqtras/ofxiOSBoost.git"
 BOOST_DIR_PATH="$EXTERNAL_DIR_PATH/ofxiOSBoost"
-OPEN_SSL_URL="https://github.com/x2on/OpenSSL-for-iPhone.git"
+OPEN_SSL_URL="https://github.com/arqtras/OpenSSL-for-iPhone.git"
 OPEN_SSL_DIR_PATH="$EXTERNAL_DIR_PATH/OpenSSL"
 MONERO_CORE_URL="https://github.com/arqma/arqma-gui"
 MONERO_CORE_DIR_PATH="$EXTERNAL_DIR_PATH/arqma-gui"
