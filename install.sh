@@ -6,10 +6,10 @@ BOOST_URL="https://github.com/fotolockr/ofxiOSBoost.git"
 BOOST_DIR_PATH="$EXTERNAL_DIR_PATH/ofxiOSBoost"
 OPEN_SSL_URL="https://github.com/x2on/OpenSSL-for-iPhone.git"
 OPEN_SSL_DIR_PATH="$EXTERNAL_DIR_PATH/OpenSSL"
-MONERO_CORE_URL="https://github.com/fotolockr/monero-gui.git"
-MONERO_CORE_DIR_PATH="$EXTERNAL_DIR_PATH/monero-gui"
-MONERO_URL="https://github.com/fotolockr/monero.git"
-MONERO_DIR_PATH="$MONERO_CORE_DIR_PATH/monero"
+MONERO_CORE_URL="https://github.com/arqma/arqma-gui"
+MONERO_CORE_DIR_PATH="$EXTERNAL_DIR_PATH/arqma-gui"
+MONERO_URL="https://github.com/arqma/arqma"
+MONERO_DIR_PATH="$MONERO_CORE_DIR_PATH/arqma"
 
 echo "Init external libs."
 mkdir -p $EXTERNAL_DIR_PATH
@@ -44,6 +44,5 @@ export BOOST_INCLUDEDIR="`pwd`/../ofxiOSBoost/build/ios/prefix/include"
 echo "Export OpenSSL vars"
 export OPENSSL_INCLUDE_DIR="`pwd`/../OpenSSL/include"
 export OPENSSL_ROOT_DIR="`pwd`/../OpenSSL/lib"
-mkdir -p monero/build
+mkdir -p arqma/build
 ./ios_get_libwallet.api.sh
-
