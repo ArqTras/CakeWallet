@@ -46,7 +46,7 @@ final class Configurations {
 
     static let preDefaultNodeUri = "eu.supportarqma.com:19994"
     static let defaultNodeUri = "us.supportarqma.com:19994"
-    static let defaultCurreny = Currency.usd
+    static let defaultCurrency = Currency.usd
     static var termsOfUseUrl: URL? {
         return Bundle.main.url(forResource: "Terms_of_Use", withExtension: "rtf")
     }
